@@ -5,9 +5,7 @@
 #include <cmath>
 float vertPol[] = { 1, 1, 0,   1, -1, 0,   -1, -1, 0,    -1, 1, 0 };
 float xAlpha = 100;
-float zAlpha = 0;
-bool isJumping = false; 
-float jumpHeight = 2.0f; 
+float zAlpha = 0; 
 POINTFLOAT pos = { 0, 0 }; //положение игрока на карте 
 
 void ShowWorld() {
